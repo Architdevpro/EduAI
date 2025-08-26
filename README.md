@@ -6,6 +6,7 @@
 ✅ Worksheets & e-books  
 ✅ Suggested videos for self-study  
 ✅ An **AI-powered tutor** to answer questions, generate practice, and create personalized study plans.
+✅ Perfectly Designed to work with UN SDG: Quality Education
 
 ---
 
@@ -28,3 +29,32 @@
 ---
 
 ## 📂 Project Structure
+
+---
+
+## 🚧 Roadmap
+- [x] Initial landing page (React + Tailwind)  
+- [ ] Searchable notes & sample papers  
+- [ ] AI tutor with document Q&A  
+- [ ] Personalized study plan generator  
+- [ ] User accounts & progress tracking  
+
+---
+
+## 🤝 Contributing
+Contributions are welcome!  
+1. Fork this repository  
+2. Create a new branch: `git checkout -b feature-name`  
+3. Commit your changes: `git commit -m "Add feature"`  
+4. Push the branch: `git push origin feature-name`  
+5. Open a Pull Request 🎉  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.  
+You’re free to use, modify, and distribute this software.
+
+---
+
+### 🌟 Star this repo if you find it helpful!
