@@ -1,14 +1,12 @@
 # 📘 EduAI
 
 **EduAI (Educational Artificial Intelligence)** is a free, open-source platform that empowers students with:  
-✅ Sample papers  
-✅ Handwritten notes  
-✅ Worksheets & e-books  
-✅ Suggested videos for self-study  
-✅ An **AI-powered tutor** to answer questions, generate practice, and create personalized study plans.
-
-✅ Perfectly Designed to work with **UN SDG: Quality Education**
-
+- ✅ Sample papers  
+- ✅ Handwritten notes  
+- ✅ Worksheets & e-books  
+- ✅ Suggested videos for self-study  
+- ✅ An **AI-powered tutor** to answer questions, generate practice, and create personalized study plans.
+- ✅ Perfectly Designed to work with **UN SDG: Quality Education**
 
 ---
 
