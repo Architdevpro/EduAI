@@ -31,16 +31,27 @@
 ## 📂 Project Structure
 
 eduai/                # Root project folder
+
 ├── public/          # Static assets (images, icons, etc.)
+
 ├── src/             # Main source code
+
 │   ├── components/  # Reusable UI components (Navbar, Footer, Cards, etc.)
+
 │   ├── pages/       # Page components (LandingPage, About, Resources, AI Tutor)
+
 │   ├── App.jsx      # Main app component
+
 │   ├── main.jsx     # Entry point
+
 │   └── index.css    # Global styles (with Tailwind imports)
+
 ├── package.json     # Dependencies and scripts
+
 ├── tailwind.config.js  # Tailwind configuration
+
 ├── postcss.config.js   # PostCSS configuration
+
 └── README.md        # Project documentation
 
 ---
