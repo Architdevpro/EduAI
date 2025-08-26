@@ -6,6 +6,7 @@
 ✅ Worksheets & e-books  
 ✅ Suggested videos for self-study  
 ✅ An **AI-powered tutor** to answer questions, generate practice, and create personalized study plans.
+
 ✅ Perfectly Designed to work with **UN SDG: Quality Education**
 
 
