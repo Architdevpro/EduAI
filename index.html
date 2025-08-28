@@ -4,85 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EduAI - Free Study Resources</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
+    * {
       margin: 0;
       padding: 0;
-      text-align: center;
+      box-sizing: border-box;
     }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
     header {
-      background: #2563eb;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
       color: white;
-      padding: 20px;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
+
     header img {
-      height: 60px;
+      height: 70px;
+      margin-bottom: 10px;
     }
-    h1 {
-      margin: 10px 0;
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin: 5px 0;
     }
-    p {
-      color: #444;
+
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
     }
+
     .resources {
-      max-width: 600px;
-      margin: 30px auto;
+      flex: 1;
+      max-width: 900px;
+      margin: 40px auto;
       padding: 20px;
+    }
+
+    .resources h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      text-align: center;
+      color: #1e3a8a;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.12);
     }
-    li {
-      margin: 12px 0;
-    }
-    a {
-      text-decoration: none;
-      color: #2563eb;
-      font-weight: bold;
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
       padding: 10px 15px;
+      font-weight: 600;
+      color: #2563eb;
+      text-decoration: none;
       border: 2px solid #2563eb;
-      border-radius: 6px;
-      transition: 0.3s;
+      border-radius: 8px;
+      transition: all 0.3s ease;
     }
-    a:hover {
+
+    .card a:hover {
       background: #2563eb;
       color: white;
     }
+
     footer {
-      margin-top: 40px;
+      text-align: center;
       padding: 15px;
-      background: #f1f1f1;
-      font-size: 14px;
+      background: #f1f5f9;
+      font-size: 0.9rem;
       color: #555;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    footer span {
+      font-weight: 600;
+      color: #2563eb;
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Replace with your logo path -->
     <img src="EduAI-logo.png" alt="EduAI Logo">
     <h1>EduAI 📘</h1>
     <p>Educational Artificial Intelligence - Free Study Resources</p>
   </header>
 
-  <div class="resources">
+  <section class="resources">
     <h2>📂 Available Resources</h2>
-    <ul>
-      <li><a href="pdfs/sample-paper.pdf" target="_blank">📄 Sample Paper</a></li>
-      <li><a href="pdfs/notes.pdf" target="_blank">📝 Handwritten Notes</a></li>
-      <li><a href="pdfs/worksheet.pdf" target="_blank">📘 Worksheet</a></li>
-      <li><a href="pdfs/ebook.pdf" target="_blank">📚 E-Book</a></li>
-    </ul>
-  </div>
+    <div class="grid">
+      <div class="card">
+        <h3>📄 Sample Paper</h3>
+        <p>Practice exam-style papers to test your knowledge.</p>
+        <a href="pdfs/sample-paper.pdf" target="_blank">Download</a>
+      </div>
+      <div class="card">
+        <h3>📝 Handwritten Notes</h3>
+        <p>Easy-to-read notes prepared by toppers & peers.</p>
+        <a href="pdfs/notes.pdf" target="_blank">Download</a>
+      </div>
+      <div class="card">
+        <h3>📘 Worksheet</h3>
+        <p>Chapter-wise worksheets for revision & practice.</p>
+        <a href="pdfs/worksheet.pdf" target="_blank">Download</a>
+      </div>
+      <div class="card">
+        <h3>📚 E-Book</h3>
+        <p>Comprehensive e-book covering major concepts.</p>
+        <a href="pdfs/ebook.pdf" target="_blank">Download</a>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    🌟 EduAI is free & open-source | Powered by Students for Students
+    🌟 <span>EduAI</span> is free & open-source | Powered by Students for Students
   </footer>
 </body>
 </html>
