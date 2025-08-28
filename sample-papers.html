@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Papers - EduAI</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      padding: 20px;
+      text-align: center;
+    }
+    h2 { color: #1e3a8a; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+    }
+    .card a {
+      display: block;
+      padding: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #2563eb;
+      border: 2px solid #2563eb;
+      border-radius: 8px;
+    }
+    .card a:hover {
+      background: #2563eb;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h2>📄 Choose a Subject</h2>
+  <div class="grid">
+    <div class="card"><a href="subjects/science.html">Science</a></div>
+    <div class="card"><a href="subjects/math.html">Math</a></div>
+    <div class="card"><a href="subjects/sst.html">Social Studies</a></div>
+    <div class="card"><a href="subjects/english.html">English</a></div>
+    <div class="card"><a href="subjects/hindi.html">Hindi</a></div>
+  </div>
+</body>
+</html>
