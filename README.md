@@ -28,7 +28,7 @@
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (Old- Abandoned)
 
 eduai/                # Root project folder
 
@@ -56,8 +56,8 @@ eduai/                # Root project folder
 
 ---
 
-## 🚧 Roadmap
-- [x] Initial landing page (React + Tailwind)  
+## 🚧 Roadmap (Old- Abandoned)
+- [ ] Initial landing page (React + Tailwind)  
 - [ ] Searchable notes & sample papers  
 - [ ] AI tutor with document Q&A  
 - [ ] Personalized study plan generator  
